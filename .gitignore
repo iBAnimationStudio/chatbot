@@ -1,0 +1,20 @@
+# Models (very important)
+Models/
+*.gguf
+
+# Database
+memory.db
+
+# Python
+__pycache__/
+*.pyc
+
+# Rust build
+target/
+
+# Env / secrets
+.env
+
+# OS junk
+.DS_Store
+Thumbs.db
