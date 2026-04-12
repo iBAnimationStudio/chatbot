@@ -34,7 +34,7 @@ Expect:
 - llama-cpp
 - (Optional) Ollama / LM Studio if replacing the model runner
 - git (to clone the repo)
-- wget (optional)###
+- wget (optional)
 
 ---
 
@@ -92,7 +92,7 @@ python main.py
 
 ---
 
-Configuration
+### Configuration
 
 Edit files in:
 
@@ -101,7 +101,7 @@ configs/
 - "model_config.json"
 - "system_config.json"
 
-👉 Do this before running "main.py"
+👉 Actually do this before running "main.py"
 
 ---
 
@@ -139,4 +139,4 @@ Use whatever model your hardware — and your sanity — can survive running �
 
 ---
 
-Just don't expect to run this on a calculator* 😶‍🌫️👍
+Just don't expect this to run on a calculator* 😶‍🌫️👍
