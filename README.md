@@ -1,8 +1,109 @@
-# Chatbot
-**Just a simple chat bot with memory**
+# just a chat bot
 
-use whatever model you like and your hardware can support 🙃 
+### Jaus A lightweight local AI runtime with memory and fast search.
 
-[please note all codes are written by ai agents and can contain weird artifacts hilluination and hugs and glitches please double triple check the code before running]
+---
 
-the rust is currently building for aarch64 cpus goodluck building it for your cpu
+**Features**
+
+- Local LLM inference (GGUF models)
+- Persistent memory (SQLite)
+- Fast semantic search (Rust backend)
+- Configurable system behavior
+
+---
+
+**Disclaimer**
+
+This project was heavily assisted by AI-generated code.
+Expect:
+
+- weird artifacts
+- occasional hallucinations
+- unexpected bugs
+
+👉 Please double check... no... triple check! code before running.
+
+---
+
+**Requirements**
+
+- Python 3.9+
+- Rust (for building the search module)
+- A supported GGUF model
+- llama-cpp
+- optinal ollama if you replace the model runner
+
+---
+
+**Setup**
+
+1. Clone the repo
+
+git clone <repo-url>
+cd <repo path>
+
+2. Install Python dependencies
+
+pip install -r requirements.txt
+
+3. Build Rust module
+
+cd rust_search
+cargo build --release
+cd ..
+
+4. Add models
+
+Place your models inside:
+
+Models/
+
+Example:
+
+- Llama GGUF model
+- embedding model
+
+---
+
+5. Initialize database
+
+python setup_db.py
+
+---
+
+6. Run
+
+python main.py
+
+---
+
+**Configuration**
+
+Edit files in:
+
+configs/
+
+- "model_config.json"
+- "system_config.json"
+
+---
+
+**Notes**
+
+- "Models/" folder is not included in the repo
+- "memory.db" is generated locally
+- Rust build is currently optimized for aarch64 CPUs
+
+---
+
+**Project Status**
+
+Experimental. Things may break. That’s part of the fun.
+don't expect hi end stuff it just a timepass 😁.
+
+---
+
+**Final Words**
+
+Use whatever model your hardware and your sanity can survive running and 😄
