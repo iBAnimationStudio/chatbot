@@ -30,9 +30,11 @@ Expect:
 
 - Python 3.9+
 - Rust (for building the search module)
-- A supported GGUF model
+- A model that suppotted by the model runner 
 - llama-cpp
-- optinal ollama if you replace the model runner
+- optinal ollama, Lm-Studio if you replacing the model runner
+- git (copy the repo)
+- wget (optional)
 
 ---
 
@@ -50,7 +52,7 @@ cd <repo path>
 ``` Bash
 pip install -r requirements.txt
 ```
-(dosenot exist 😅 lust install these for now -> llama-cpp rust python git and sqlit3 if not installed.)
+(dosenot exist 😅 just install these for now -> llama-cpp python if not installed.)
 
 3. Build Rust module
 
