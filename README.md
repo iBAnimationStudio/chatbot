@@ -40,19 +40,26 @@ Expect:
 
 1. Clone the repo
 
+``` Bash
 git clone <repo-url>
 
 cd <repo path>
+```
 
 2. Install Python dependencies
 
-pip install -r requirements.txt (dosenot exist etc 😅 lust install these for now -> llama-cpp rust python git and sqlit3 if not instaled.
+``` Bash
+pip install -r requirements.txt
+```
+(dosenot exist 😅 lust install these for now -> llama-cpp rust python git and sqlit3 if not installed.)
 
 3. Build Rust module
 
+``` Bash
 cd rust_search
 cargo build --release
 cd ..
+```
 
 4. Add models
 
@@ -69,13 +76,17 @@ Example:
 
 5. Initialize database
 
+``` Bash
 python setup_db.py
+```
 
 ---
 
 6. Run
 
+``` Bash 
 python main.py
+```
 
 ---
 
@@ -87,6 +98,7 @@ configs/
 
 - "model_config.json"
 - "system_config.json"
+(Do it before running the main.py)
 
 ---
 
@@ -101,10 +113,21 @@ configs/
 **Project Status**
 
 Experimental. Things may break. That’s part of the fun.
-don't expect hi end stuff it just a timepass 😁.
+don't expect hi-end stuff it just a timepass 😁.
+
+---
+
+## First Run Tip
+If it crashes, it’s probably:
+- missing model
+- wrong config
+- rust choked 
+- or skill issue 😄
+
+Check configs and logs.
 
 ---
 
 **Final Words**
 
-Use whatever model your hardware and your sanity can survive running and 😄
+Use whatever model your hardware and your sanity can survive running 😄
