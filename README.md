@@ -41,11 +41,12 @@ Expect:
 1. Clone the repo
 
 git clone <repo-url>
+
 cd <repo path>
 
 2. Install Python dependencies
 
-pip install -r requirements.txt
+pip install -r requirements.txt (dosenot exist etc 😅 lust install these for now -> llama-cpp rust python git and sqlit3 if not instaled.
 
 3. Build Rust module
 
