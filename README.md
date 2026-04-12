@@ -1,10 +1,10 @@
-# just a chat bot
+# Just a Chat Bot
 
-### Jaus A lightweight local AI runtime with memory and fast search.
+Just — A lightweight local AI runtime with memory and fast search.
 
 ---
 
-**Features**
+### **Features**
 
 - Local LLM inference (GGUF models)
 - Persistent memory (SQLite)
@@ -13,7 +13,7 @@
 
 ---
 
-**Disclaimer**
+### **Disclaimer**
 
 This project was heavily assisted by AI-generated code.
 Expect:
@@ -22,45 +22,50 @@ Expect:
 - occasional hallucinations
 - unexpected bugs
 
-👉 Please double check... no... triple check! code before running.
+👉 Please double check… no… triple check the code before running.
 
 ---
 
-**Requirements**
+### **Requirements**
 
 - Python 3.9+
 - Rust (for building the search module)
-- A model that suppotted by the model runner 
+- A model supported by the model runner
 - llama-cpp
-- optinal ollama, Lm-Studio if you replacing the model runner
-- git (copy the repo)
-- wget (optional)
+- (Optional) Ollama / LM Studio if replacing the model runner
+- git (to clone the repo)
+- wget (optional)###
 
 ---
 
-**Setup**
+### **Setup**
 
 1. Clone the repo
 
 ``` Bash
 git clone <repo-url>
-cd <repo path>
+cd <repo-path>
 ```
+
+---
 
 2. Install Python dependencies
 
-``` Bash
+```Bash
 pip install -r requirements.txt
 ```
-(dosenot exist 😅 just install these for now -> llama-cpp python if not installed.)
+
+(doesn’t exist yet 😅 just install "llama-cpp-python" manually for now)
+
+---
 
 3. Build Rust module
 
-``` Bash
 cd rust_search
 cargo build --release
 cd ..
-```
+
+---
 
 4. Add models
 
@@ -77,21 +82,17 @@ Example:
 
 5. Initialize database
 
-``` Bash
 python setup_db.py
-```
 
 ---
 
 6. Run
 
-``` Bash 
 python main.py
-```
 
 ---
 
-**Configuration**
+Configuration
 
 Edit files in:
 
@@ -99,11 +100,12 @@ configs/
 
 - "model_config.json"
 - "system_config.json"
-(Do it before running the main.py)
+
+👉 Do this before running "main.py"
 
 ---
 
-**Notes**
+### Notes
 
 - "Models/" folder is not included in the repo
 - "memory.db" is generated locally
@@ -111,24 +113,30 @@ configs/
 
 ---
 
-**Project Status**
+### Project Status
 
 Experimental. Things may break. That’s part of the fun.
-don't expect hi-end stuff it just a timepass 😁.
+Don’t expect high-end stuff — it’s just a timepass 😁
 
 ---
 
-## First Run Tip
+### First Run Tip
+
 If it crashes, it’s probably:
+
 - missing model
 - wrong config
-- rust choked 
+- Rust choked
 - or skill issue 😄
 
 Check configs and logs.
 
 ---
 
-**Final Words**
+Final Words
 
-Use whatever model your hardware and your sanity can survive running 😄
+Use whatever model your hardware — and your sanity — can survive running 😄
+
+---
+
+Just don't expect to run this on a calculator* 😶‍🌫️👍
