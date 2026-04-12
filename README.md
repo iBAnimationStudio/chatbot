@@ -42,7 +42,6 @@ Expect:
 
 ``` Bash
 git clone <repo-url>
-
 cd <repo path>
 ```
 
