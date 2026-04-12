@@ -14,4 +14,5 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
  WARE.
 
 Use it, break it, improve it, do whatever you want.
+
 **Just don’t blame me if it explodes.**
