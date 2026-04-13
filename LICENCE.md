@@ -12,6 +12,6 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
  
 ---
 
-Use it, break it, improve it, do whatever you want.
+Use it, make it, break it, improve it, do whatever you want.
 
 **Just don’t blame me if it explodes.**

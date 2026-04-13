@@ -28,7 +28,7 @@ Expect:
 
 ### **Requirements**
 
-- Python 3.9+
+- Python 3.10+
 - Rust (for building the search module)
 - A model supported by the model runner
 - llama-cpp
