@@ -61,10 +61,11 @@ pip install -r requirements.txt
 
 3. Build Rust module
 
+```Bash
 cd rust_search
 cargo build --release
 cd ..
-
+```
 ---
 
 4. Add models
