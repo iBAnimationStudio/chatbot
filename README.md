@@ -1,6 +1,6 @@
 # Just a Chat Bot
 
-Just — A lightweight local AI runtime with memory and fast search.
+Just — A lightweight local AI runtime with memory.
 
 ---
 
