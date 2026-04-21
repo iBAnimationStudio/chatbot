@@ -118,7 +118,7 @@ def format_memory(results):
     return "\n<<MEMORY>>\n" + "\n".join(lines) + "\n<</MEMORY>>\n"
 
 # =========================================================
-# 🧠 CONTEXT MANAGER (SINGLE BLOCK - YOUR BRAIN ENTRY POINT)
+# CONTEXT MANAGER
 # =========================================================
 def build_prompt(system_prompt, memory_context, history, query):
     recent = history[-4:]  # short-term memory
